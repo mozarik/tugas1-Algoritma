@@ -1,0 +1,19 @@
+# Pseudocode untuk mmemeriksa apakabh sebuah bilangan iu adalah bilangan prima
+
+1. INPUT nilai/angka yang ingin di cek
+2. DEKLARASI variabel
+            long angka # angka yang akan dicek
+            long hasilMod # hasil modulasi angka yang dicek
+            boolean prima = true #
+
+3.FOR pembagi = 2; pembagi <= 2 ; pembagi++
+    
+    hitung hasilMod # hasilMod = angka % pembagi
+
+    IF hasilMod adalah 0
+        prima = false 
+        break
+4.IF prima = true AND angka>0 AND angka != 1
+    print angka adalah bilangan prima
+5.ELSE 
+    print angka bukanlah bilangan prima
